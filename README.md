@@ -7,9 +7,9 @@ I have made my own database system. I store data inside database directory in JS
 
   ### Freatures
 1.Login
-2. Registration
-3. Email Verification
-4. Forgotten Password.
-5. Session Management
-6. Coockie management.
-7. Validation.
+2. Registration<br>
+3. Email Verification<br>
+4. Forgotten Password.<br>
+5. Session Management<br>
+6. Coockie management.<br>
+7. Validation.<br>
