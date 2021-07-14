@@ -1,0 +1,140 @@
+
+body{
+
+	font-family: sans-serif;
+	background-image:url('../7AF2Qzt.png');
+	background-size: 100%;
+	box-sizing:border-box;
+}
+a:hover {text-decoration: none;}
+.form-wrapper{
+	margin: 110px auto;
+	max-width: 380px;
+	height: auto;
+	position: relative;
+}
+
+div.formTitle{
+	margin: 20px 0px;
+	text-align: center;
+}
+
+div.formTitle h3{text-transform: capitalize;}
+
+
+
+
+.form-wrapper form{
+	padding: 0px 15px;
+}
+ .form-wrapper form a{color:#264646;float: right; padding-left: 10px;}
+.layer-one{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transform: rotate(183deg);
+}
+
+.layer-two{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transform: rotate(-183deg);
+}
+
+
+.layer-three{
+	position: relative;
+}
+
+.layer-one,.layer-two,.layer-three{
+	background: #FEFEFE;
+	border:1px solid #d8d8d8;
+	box-shadow: 0 0 2px 0px  rgba(0,0,0,0.2);
+}
+
+
+.name,.email,.password{
+	position: relative;
+	width: 100%;
+}
+
+.name,.email{
+	margin-bottom: 15px;
+}
+.password{margin-bottom: 20px;}
+
+input[type=text],input[type=email],input[type=password]{
+	outline: none;
+	width: 100%;
+	text-indent: 20px;
+	padding: 8px 10px;
+	position: relative;
+	border:1px solid #ddd;
+	background: #f2f2f2;
+	box-sizing:border-box;
+	
+}
+
+input[type=text]:focus
+,input[type=email]:focus
+,input[type=password]:focus
+{
+	border: 1px solid red;
+}
+
+input[type=submit]{
+	padding: 5px 15px;
+	border: none;
+	outline: none;
+	background: orange;
+	color:#fff;
+	cursor : pointer;
+	font-size: 16px;
+	border-radius: 15px 15px 15px 15px;
+}
+input[type=submit]:focus{
+	
+	box-shadow: 0 0 2px 1px rgba(255,87,34,1);
+}
+
+input[type=submit]:hover {
+	background: #FF9800;
+}
+
+.fa{
+	position: absolute;
+	z-index: 99;
+	left: 0;
+	color:#a0a0a0;
+	font-size: 18px;
+	padding: 6px 10px;
+}
+.fa-envelope{font-size: 15px;padding-top: 10px;}
+
+.form-wrapper .bottom{
+	margin-top: 15px;
+	margin-bottom: 0px;
+	text-align: center;
+	padding: 10px;
+	background: #f2f2f29e;
+	box-shadow: 0px -1px 4px 1px rgba(0,0,0,0.1)
+}
+.form-wrapper .bottom a{
+	color:gray;
+}
+
+.alert{
+	color:red;
+	text-align: center;
+	background: #fff;padding: 10px;
+}
+
+.message{color:green;text-align: center;}
+
+p.field_error {
+    margin-top: 3px;
+    font-size: 12px;
+    color: red;
+    text-transform: capitalize;
+}
